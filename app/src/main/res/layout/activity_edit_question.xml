@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_552bd3de60fe79aa369ed6e3755e7f8__free_iphone_wallpaper_wallpaper_for"
+    tools:context=".edit_question">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="132dp"
+        android:text="@string/update_q"
+        android:textSize="20sp"
+        app:backgroundTint="#303F9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="132dp"
+        android:text="@string/back_q"
+        android:textSize="20sp"
+        app:backgroundTint="#303F9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="132dp"
+        android:text="@string/delete_q"
+        android:textSize="20sp"
+        app:backgroundTint="#303F9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="114dp"
+        android:ems="10"
+        android:hint="Ernest Rutherford"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="325dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="The scientist who introduced the model of the atom similar to the solar system?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
